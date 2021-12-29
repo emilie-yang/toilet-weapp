@@ -1,14 +1,20 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/location/location",
-    "pages/setting/setting"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#262930",
-    "navigationBarTitleText": "小明带你找厕所",
-    "navigationBarTextStyle": "#fff",
-    "enablePullDownRefresh": true
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/location/location",
+        "pages/setting/setting"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#262930",
+        "navigationBarTitleText": "找厕所",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true
+    },
+    "permission":{
+        "scope.userLocation":{
+          "desc":"请点击确定"
+        }
+      },    
+    "sitemapLocation": "sitemap.json"
 }
