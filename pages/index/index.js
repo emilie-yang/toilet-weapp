@@ -27,7 +27,7 @@ Page({
     var that = this;
     // 实例化API核心类
     qqmapsdk = new QQMapWX({
-      key: '2EQBZ-3XM36-RUTSG-MIO6B-GXH4E-B3FC5'
+      key: '4LTBZ-DVFKR-27YW5-WN5MF-MQZS7-JFBZV'
     });
     //查询附件的资源信息
     wx.getLocation({
