@@ -13,7 +13,7 @@
     },
     "permission":{
         "scope.userLocation":{
-          "desc":"请点击确定"
+          "desc":"请点击允许"
         }
       },    
     "sitemapLocation": "sitemap.json"
